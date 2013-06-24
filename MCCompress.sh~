@@ -337,21 +337,23 @@ cat $scriptList | while read str; do
 
     if [ ! -z $(echo `echo "$str" | grep -o '\(\ compile\ \)'`) ]
     then
-      dataCompiled=`compileFile "$fileToCompile"`
+      #dataCompiled=`compileFile "$fileToCompile"`
+      echo zlo
     else
-      dataCompiled=`less "$fileToCompile"`
+      echo ololo
+      #dataCompiled=`less "$fileToCompile"`
     fi
     
-    addFile "$dataCompiled" "$fileToCompile" "$isOneFile" "$tempDir"
+    #addFile "$dataCompiled" "$fileToCompile" "$isOneFile" "$tempDir"
 
   fi
 
 done
 
 # создадим gzip для браузеров его понимающих
-compressFiles "$tempDir"
+#compressFiles "$tempDir"
 
 echo скомпилированные файлы копируются в "$prodDir"
-cp "$tempDir"/*[^.txt] "$prodDir"
+#cp "$tempDir"/*[^.txt] "$prodDir"
 
-rm -rf "$tempDir"
+#rm -rf "$tempDir"

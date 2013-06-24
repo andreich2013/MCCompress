@@ -17,7 +17,7 @@ MCCompress
 Клонируем репозиторий:
 
 ```
-sudo git clone https://github.com/andreich2013/MCCompress.git
+git clone https://github.com/andreich2013/MCCompress.git
 ```
 
 Добавляем файлу права на исполнение:
@@ -88,6 +88,9 @@ add file:pathToFile/style.css
 ```
 pathToLocalProjectDir/MCCompress.sh pathToLocalProjectDir/test/production pathToLocalProjectDir/productionList.txt 
 ```
+
+Внимание! Перед использованием в файле productionList.txt замените текст "/home/user/pathToLocalProject/" в строках 
+на актуального пользователя и локальный путь к проекту
 
 ### Дополнительно
 
