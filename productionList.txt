@@ -1,0 +1,23 @@
+add !compile file:/home/andreich/MCCompress/test/jquery-1.7.2.min.js
+add !compile file:/home/andreich/MCCompress/test/highslide-full.packed.js
+add compile file:/home/andreich/MCCompress/test/audioPlayer.js 
+add compile file:/home/andreich/MCCompress/test/jquery.mousewheel.js
+add         file:/home/andreich/MCCompress/test/jquery.hoverflow.min.js
+add         file:/home/andreich/MCCompress/test/jquery.jscrollpane.min.js
+add         file:/home/andreich/MCCompress/test/jquery.jcarousel.min.js
+add compile file:/home/andreich/MCCompress/test/accordion.js
+add compile file:/home/andreich/MCCompress/test/bookmark.js
+add compile file:/home/andreich/MCCompress/test/popup.js
+add compile file:/home/andreich/MCCompress/test/slider.js
+!add compile file:/home/andreich/MCCompress/test/scrollToTop.js
+add !compile file:/home/andreich/MCCompress/test/jquery-ui-1.10.2.custom.min.js
+!add         file:/home/andreich/MCCompress/test/jquery.ui.touch-punch.min.js
+add compile file:/home/andreich/MCCompress/test/lib.js
+add compile file:/home/andreich/MCCompress/test/lib_start.js
+add compile file:/home/andreich/MCCompress/test/start.js
+
+!add compile file:/home/andreich/MCCompress/test/style.css
+add compile file:/home/andreich/MCCompress/test/highslide.css
+add compile file:/home/andreich/MCCompress/test/jquery.plugins.css
+!add compile file:/home/andreich/MCCompress/test/lib.css
+

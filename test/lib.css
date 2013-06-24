@@ -1,0 +1,288 @@
+/*крошки*/
+
+.pathway{
+    font-size: 12px;
+    color: #dadada;
+    margin: 0 0 20px 0;
+    height: 30px;
+    line-height: 30px;
+}
+.pathway ul li{
+    display: inline;
+    margin: 0 5px 0 4px;
+}
+.pathway ul li a{
+    text-decoration: underline;
+    color: #dadada;
+}
+
+/*пагинация страниц*/
+
+.pagination_wr{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 20px;
+}
+.pagination_wr .pagination .paginator,
+.pagination_wr .pagination .paginator_left,
+.pagination_wr .pagination .paginator_right{
+    display: block;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    border: 1px solid #87CEEB;
+    color: #87CEEB;
+    float: left;
+    margin: 0 5px 0 0;
+}
+.pagination_wr .pagination .paginator:hover,
+.pagination_wr .pagination .paginator.active,
+.pagination_wr .pagination .paginator_left:hover,
+.pagination_wr .pagination .paginator_right:hover{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.paginator.active{
+    cursor: default;
+}
+.pagination_wr .pagination .paginator_left,
+.pagination_wr .pagination .paginator_right{
+    width: 10px;
+}
+
+/*формы*/
+
+/*.post_form fieldset {
+    border: none;
+}*/
+.comments_form{
+    float: right;
+    width: 660px;
+    margin: 0 1px 0 0;
+}
+.post_form #group_0-label{
+    display: none;
+}
+.post_form form input,
+.post_form form textarea,
+.post_form form select {
+    width: 238px;
+    margin: 5px 0;
+    padding: 3px 5px;
+    border: 1px solid #b3b3b3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: transparent;
+}
+.post_form form input,
+.post_form form textarea,
+.post_form form select{
+    border: 1px solid #676767;
+}
+.post_form form textarea{
+    min-width: 200px;
+    max-width: 238px;
+    min-height: 75px;
+}
+.comments_form.post_form form textarea{
+    min-width: 648px;
+    max-width: 648px;
+}
+
+.post_form form select {
+    width: auto; 
+}
+
+.post_form form input[type=submit]{
+    width: auto;
+    text-decoration:none;
+    margin: 15px 0 0 0;
+    background: #00a4ff; /* Old browsers */
+    background: -moz-linear-gradient(top, #00a4ff 0%, #50c0ff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00a4ff), color-stop(100%,#50c0ff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #00a4ff 0%,#50c0ff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #00a4ff 0%,#50c0ff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #00a4ff 0%,#50c0ff 100%); /* IE10+ */
+    background: linear-gradient(top, #00a4ff 0%,#50c0ff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a4ff', endColorstr='#50c0ff',GradientType=0 ); /* IE6-9 */
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 5px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.edit_form.post_form form input[type=submit],
+.post_form.login-form.gray-button form input[type=submit],
+.register_form.post_form form input[type=submit],
+.comments_form.post_form form input[type=submit],
+.filter form input[type="submit"]{
+    background: #676767; /* Old browsers */
+    background: -moz-linear-gradient(top, #c5c5c5 0%, #676767 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c5c5c5), color-stop(100%,#676767)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #c5c5c5 0%,#676767 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #c5c5c5 0%,#676767 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #c5c5c5 0%,#676767 100%); /* IE10+ */
+    background: linear-gradient(top, #c5c5c5 0%,#676767 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5c5c5', endColorstr='#676767',GradientType=0 );
+}
+
+.post_form form .captcha{
+    float: left;
+    width: 250px;
+}
+.post_form form .captcha .captcha_img_wr{
+    float: left;
+}
+.post_form form .captcha .captcha_img_wr{
+    vertical-align: middle;
+}
+.post_form form .refresh_captcha{
+    float: left;
+    margin: 26px 0 0 7px;
+}
+.post_form form .captcha input{
+    width: 100px;
+    float: right;
+    margin: 25px 0 0 0;
+}
+.form_responce p{
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+    color: green;
+    text-indent: 0px;
+}
+form .form_errors{
+    display: block;
+    color: red;
+    font-size: 11px;
+    line-height: 14px;
+}
+.form_responce.login_page p{
+    text-align: left;
+}
+
+/* фильтр */
+
+.filter{
+    margin: 0 0 20px 0;
+    line-height: 26px;
+}
+.filter form p{
+    margin: 0 10px 0 0;
+    float: left;
+}
+.filter-block{
+    float: left;
+    margin: 0 5px 0px 0;
+}
+.filter-block.last{
+    margin: 0;
+}
+.filter-block span,
+.filter-block label{
+    display: block;
+    text-align: center;
+}
+.filter-block .form_errors{
+    max-width: 140px;
+    text-align: left;
+}
+.filter form .filter_date{
+    float: left;
+    margin: 0 0px 0px 0;
+}
+.filter form .filter_section{
+    float: left;
+    margin: 0 5px 0px 0;
+}
+.filter form .filter_date input[type="text"]{
+    width: 65px;
+    margin: 0 5px 0px 0;
+    padding: 4px 5px;
+}
+.filter form .filter_date input[type="text"].last{
+    margin: 0;
+}
+.filter form .filter_section select{
+    width: 140px;
+    margin: 0;
+    float: left;
+    background: #ffffff;
+}
+.filter form .filter_section select.last{
+    margin: 0;
+}
+.filter form input[type="submit"]{
+    float: right;
+    margin: 26px 0 0 0;
+    padding: 4px 20px;
+}
+.catalog_product_comments_comment{
+    position: relative;
+}
+.catalog_product_comments_comment:hover .delete_article{
+    display: block;
+}
+.delete_article{
+    display: none;
+    position: absolute;
+    width:18px;
+    height: 18px;
+    top: 0;
+    right: 0;
+    background: url(../mc_project/admin_content/images/delbut.png);
+}
+.catalog_product_comments_comment form input{
+    border: none;
+    background: none;
+    color: navy;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.catalog_product_comments_comment form a{
+    text-decoration: underline;
+    color: navy;
+    margin: 0 5px;
+}
+
+.catalog_product_comments_comment form input:hover,
+.catalog_product_comments_comment form a:hover{
+    text-decoration: none;
+}
+/*paginator*/
+.paginationControl{
+    text-align: center;
+    width: 720px;
+}
+ul.pages{
+    text-align:center;
+    line-height: 18px;
+}
+ul.pages li{
+    display:inline-block;
+    color:#000000;
+    margin: 0 3px;
+}
+ul.pages li a,
+ul.pages li span{
+    padding: 3px 7px;
+    margin:0;
+    display: block;
+    color: #000000;
+}
+ul.pages li a.pages_next,
+ul.pages li a.pages_prev{
+    background: none;
+    padding: 3px 0px;
+}
+ul.pages li a:hover,
+ul.pages li span{
+    color: #ffffff;
+}

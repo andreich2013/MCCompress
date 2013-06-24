@@ -1,0 +1,23 @@
+add compile file:/home/user/pathToLocalProjectDir/test/jquery-1.7.2.min.js
+add compile file:/home/user/pathToLocalProjectDir/test/highslide-full.packed.js
+add compile file:/home/user/pathToLocalProjectDir/test/audioPlayer.js 
+add compile file:/home/user/pathToLocalProjectDir/test/jquery.mousewheel.js
+add         file:/home/user/pathToLocalProjectDir/test/jquery.hoverflow.min.js
+add !compile file:/home/user/pathToLocalProjectDir/test/jquery.jscrollpane.min.js
+add         file:/home/user/pathToLocalProjectDir/test/jquery.jcarousel.min.js
+add compile file:/home/user/pathToLocalProjectDir/test/accordion.js
+add compile file:/home/user/pathToLocalProjectDir/test/bookmark.js
+add compile file:/home/user/pathToLocalProjectDir/test/popup.js
+add compile file:/home/user/pathToLocalProjectDir/test/slider.js
+!add compile file:/home/user/pathToLocalProjectDir/test/scrollToTop.js
+add !compile file:/home/user/pathToLocalProjectDir/test/jquery-ui-1.10.2.custom.min.js
+!add         file:/home/user/pathToLocalProjectDir/test/jquery.ui.touch-punch.min.js
+add compile file:/home/user/pathToLocalProjectDir/test/lib.js
+add compile file:/home/user/pathToLocalProjectDir/test/lib_start.js
+add compile file:/home/user/pathToLocalProjectDir/test/start.js
+
+!add compile file:/home/user/pathToLocalProjectDir/test/style.css
+add compile file:/home/user/pathToLocalProjectDir/test/highslide.css
+add compile file:/home/user/pathToLocalProjectDir/test/jquery.plugins.css
+!add compile file:/home/user/pathToLocalProjectDir/test/lib.css
+
