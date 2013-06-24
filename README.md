@@ -86,7 +86,7 @@ add file:pathToFile/style.css
 Тестовый запуск осуществляется следующим образом:
 
 ```
-pathToLocalProjectDir/MCCompile.sh pathToLocalProjectDir/test/production pathToLocalProjectDir/test/productionList.txt 
+pathToLocalProjectDir/MCCompile.sh pathToLocalProjectDir/test/production pathToLocalProjectDir/productionList.txt 
 ```
 
 ### Дополнительно
