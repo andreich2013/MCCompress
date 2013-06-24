@@ -23,7 +23,7 @@ git clone git@github.com:andreich2013/MCCompress.git
 Добавляем файлу права на исполнение:
 
 ```
-chmod +x pathToFile/MCCompile.sh
+chmod +x pathToFile/MCCompress.sh
 ```
 
 скрипт готов к работе 
@@ -33,7 +33,7 @@ chmod +x pathToFile/MCCompile.sh
 следующий код запускает скрипт
 
 ```
-pathToFile/MCCompile.sh pathToDir/production pathToFile/productionList.txt [-o|-s]
+pathToFile/MCCompress.sh pathToDir/production pathToFile/productionList.txt [-o|-s]
 ```
 
 параметры(* помечены обязательные параметры):
@@ -86,7 +86,7 @@ add file:pathToFile/style.css
 Тестовый запуск осуществляется следующим образом:
 
 ```
-pathToLocalProjectDir/MCCompile.sh pathToLocalProjectDir/test/production pathToLocalProjectDir/productionList.txt 
+pathToLocalProjectDir/MCCompress.sh pathToLocalProjectDir/test/production pathToLocalProjectDir/productionList.txt 
 ```
 
 ### Дополнительно
