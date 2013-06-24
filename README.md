@@ -17,7 +17,7 @@ MCCompress
 Клонируем репозиторий:
 
 ```
-git clone git@github.com:andreich2013/MCCompress.git
+sudo git clone https://github.com/andreich2013/MCCompress.git
 ```
 
 Добавляем файлу права на исполнение:
