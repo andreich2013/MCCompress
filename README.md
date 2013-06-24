@@ -33,7 +33,7 @@ chmod +x pathToFile/MCCompile.sh
 следующий код запускает скрипт
 
 ```
-pathToFile/compile.sh pathToDir/production pathToFile/productionList.txt [-o|-s]
+pathToFile/MCCompile.sh pathToDir/production pathToFile/productionList.txt [-o|-s]
 ```
 
 параметры(* помечены обязательные параметры):
@@ -79,6 +79,15 @@ add file:pathToFile/style.css
 ```
 
 Внимание! В файле не должно быть ничего лишнего - комментариев или чего либо еще - допускаются только пустые строки
+
+## Демо
+
+папка для демонстрации с файлами для сжатия и файлом-списком находится в проекте и называется test.  
+Тестовый запуск осуществляется следующим образом:
+
+```
+pathToLocalProjectDir/MCCompile.sh pathToLocalProjectDir/test/production pathToLocalProjectDir/test/productionList.txt 
+```
 
 ### Дополнительно
 
